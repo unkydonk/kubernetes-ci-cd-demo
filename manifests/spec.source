@@ -1,0 +1,5 @@
+source:
+  repoURL: https://github.com/unkydonk/kubernetes-ci-cd-demo
+  targetRevision: main
+  path: manifests
+  kustomize: {}
