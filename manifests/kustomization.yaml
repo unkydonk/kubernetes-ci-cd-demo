@@ -1,3 +1,3 @@
 resources:
-  - deployments.yaml
+  - deployment.yaml
   - service.yaml
