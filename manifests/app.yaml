@@ -3,6 +3,10 @@ kind: Application
 metadata:
   name: current-time-api
   namespace: argocd
+  annotations:
+    argocd-image-updater.argoproj.io/image-list: unkydonk123/current-time-api
+    argocd-image-updater.argoproj.io/write-back-method: git:secret
+    argocd-image-updater.argoproj.io/git-branch: main
 spec:
   source:
     repoURL: https://github.com/unkydonk/kubernetes-ci-cd-demo
