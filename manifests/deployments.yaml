@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: current-time-api
-        image: tinegaonchari/current-time-api:latest
+        image: unkydonk123/current-time-api:latest
         ports:
         - containerPort: 3000
