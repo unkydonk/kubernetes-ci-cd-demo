@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get('/time', (req, res) => {
     const currentTime = new Date().toISOString();
-    res.json({ currentTime });
+    res.send(`The current time right now is ${currentTime}`);
 });
 
 app.listen(port, () => {
